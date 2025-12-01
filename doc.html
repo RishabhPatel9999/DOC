@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="" novalidate autocomplete="off">
+    <table border="1px" width="500px" align="center" bgcolor="#ddd">
+        <thead>
+            <tr>
+                <th>Input Controls Demo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" placeholder="User Name"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="password" placeholder="Eg: demo@mail.com"/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Eg: demo@123456"/></td>
+            </tr>
+            <tr>
+                <td>Date of Time</td>
+                <td><input type="datetime-local"/>
+                </td> 
+            </tr> 
+            <tr>
+                <td>Week</td>
+                <td><input type="week"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>Month</td>
+                <td><input type="month"/>
+                </td> 
+            </tr> 
+            <tr>   
+                <td>Date of Birth</td>
+                <td><input type="data" min="2024-12-15" max="2025-12-20"/></td>
+            </tr> 
+            <tr>
+                <td>Color</td>
+                <td><input type="color"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td><input type="range" min="99" max="799"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>Hidden Value</td>
+                <td><input type="hidden" value="emp1001"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>Upload Pic</td>
+                <td><input type="file"  accept=".jpg , .pdf" multiple />
+                </td> 
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select>
+                        <option disabled selected>~~Select~~</option>
+                        <optgroup label="Tech">
+                        <option>BTech</option>
+                        <option>MTech</option>
+                        </optgroup>
+                        <optgroup label="Mgnt">
+                        <option>MBA</option>
+                        <option>BBA</option>
+                        <option>BCA</option>
+                        </optgroup>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td>Univercity Name</td>
+                <td>
+                    <input type="text" list="select">
+                    <datalist id="mylist">
+                        <option>AKTU</option>
+                        <option>KIT</option>
+                        <option>PSIT</option>
+                        <option>IIT</option>
+                        <option>APOLLO</option>
+                    </datalist>
+                </td> 
+            </tr>
+            <tr>
+                <td>SGPA</td>
+                <td><input type="nuber" min="1" max="10" step="0.01"/></td>   
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gen"/> Male
+                    <input type="radio" name="gen"/> Female
+                </td> 
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td><input type="checkbox" name="hobb1"/> Playing
+                    <input type="checkbox" name="hobb2"/> Reading
+                </td>
+            </tr>
+            <tr>
+                <td>Something Field</td>
+                <td><input type="select"/>
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit"/>
+                    <input type="reset"/>
+                    <input type="button" value="button"/>
+                    <input type="image" src="../allen/Documents/Screenshot 2025-07-07 091643 - Copy.png" width="88px"/>
+
+                    <button type="submit"> 
+                        &#128512;
+                    </button>
+                </td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
